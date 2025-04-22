@@ -3,17 +3,18 @@ body {background-color:pink;
  
   h1 {color:rgb(219, 63, 63); 
     background-color: antiquewhite;
-font-size: 50px;
-text-align: center;
-  }
- 
-
+    font-size: 50px;
+    text-align: center;
+  } 
+  
   h2{color:rgb(219, 63, 63);
-    }
+  }
 
-  ul{color:rgb(124, 58, 12);}
+  ul{color:rgb(124, 58, 12);
+  }
 
-  ol{color:rgb(124, 58, 12);}
+  ol{color:rgb(124, 58, 12);
+  }
   
   p {color:rgb(124, 58, 12);
-    }
+  }
