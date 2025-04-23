@@ -4,5 +4,16 @@ h1 {
 
 h2.subheading {
     text-align: center;
+}
 
+h3.key{
+    text-align: center;
+}
+
+p.content {
+    text-align: center;
+}
+
+#navigation{
+    text-align: center;
 }
