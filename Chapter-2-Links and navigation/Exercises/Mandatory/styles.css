@@ -1,19 +1,45 @@
+body{
+    background-color: #000000;
+}
+
 h1 {
     text-align: center;
+    color: white;
 }
 
 h2.subheading {
     text-align: center;
+    color:  #ccbd7f;
 }
 
 h3.key{
     text-align: center;
+    color: #ccbd7f;
 }
 
 p.content {
     text-align: center;
+    color: white;
 }
 
-#navigation{
+#navigation {
     text-align: center;
+    gap: 20px;
 }
+
+#navigation a {
+    margin-right: 20px;
+}
+
+#officiallink {
+    padding: 10px 20px;
+    background-color: #ccbd7f;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#button-container {
+    text-align: center;
+  }
