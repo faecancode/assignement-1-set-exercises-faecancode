@@ -1,32 +1,33 @@
 header{
-    background-color:  #17072b;
+    background-color:  #17072b;  /* sets the background color of the header to a dark blue shade */
 }
 
 #heading{
-    text-align: center;
+    text-align: center; 
     color:  #FFFFFF;
 }
+ /* centers the main heading text and sets its color to white */
 
 #nav{
     text-align: center;
     color: #FFFFFF;
-    margin-right: 40px;
 }
+ /* centers the navigation text and sets its color to white */
 
 main {
-    display: flex;
-    gap: 20px; /* Optional: spacing between article and aside */
-    padding: 20px;
+    display: flex; /* Makes the main content a flexible box layout (flexbox) */
+    gap: 20px; /* adds 20px space between items */
+    padding: 20px; /* gives padding inside the main area */
 }
 
 #digifest1{
-    height:300px;
+    height:300px; /* sizes */
     width: 600px
 }
 
 aside{
-    background-color: #172d67;
-    float: right;    
+    background-color: #172d67; 
+    float: right;    /* makes the aside float to the right */
 }
 
 #subheading{
@@ -40,10 +41,14 @@ aside{
 .column{
     float:left;
 }
+/* floats the column divs to the left*/
 
 .row {
     float: right;
 }
+ /* floats the row divs to the right*/
+
+ /* the styling above places the images side by side */
 
 #copyright{
     text-align: center;
