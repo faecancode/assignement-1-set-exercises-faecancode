@@ -1,0 +1,55 @@
+header{
+    background-color:  #17072b;
+}
+
+#heading{
+    text-align: center;
+    color:  #FFFFFF;
+}
+
+#nav{
+    text-align: center;
+}
+
+main {
+    display: flex;
+    gap: 20px; /* Optional: spacing between article and aside */
+    padding: 20px;
+}
+
+#digifest1{
+    height:300px;
+    width: 600px
+}
+
+aside{
+    background-color: #172d67;
+    float: right;    
+}
+
+#subheading{
+    color: #FFFFFF;
+}
+
+#side{
+    color: #FFFFFF;
+}
+
+.column{
+    float:left;
+}
+
+.row ::after {
+    content:"" ;
+    display: table;
+    clear: both;
+}
+
+#copyright{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer{
+    background-color:#8c15e9;
+}
