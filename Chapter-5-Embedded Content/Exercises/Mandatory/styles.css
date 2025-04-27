@@ -1,3 +1,12 @@
-#vid{
+h3{
     text-align: center;
+}
+
+#vid{
+   text-align: center;
+}
+
+#rolling-creature{
+    width: 360px;
+    height: 400px;
 }

@@ -1,45 +1,44 @@
-body{
-    background-color: #000000;
+body{ 
+    background-color: #000000; /* sets the entire page background to black */
 }
 
 h1 {
-    text-align: center;
-    color: rgb(251, 194, 107);
+    text-align: center; /* centers the main heading */
+    color: rgb(251, 194, 107); /* sets the h1 text color to a soft gold */
 }
 
-h2.subheading {
-    text-align: center;
-    color:  #ccbd7f;
+h2.subheading { 
+    text-align: center; /* centers any h2 element with the class "subheading" */
+    color:  #ccbd7f; /* gives it a light gold color */
 }
 
 h3.key{
-    text-align: center;
+    text-align: center; /* centers all h3 elements with the class "key" */
     color: #ccbd7f;
 }
 
 p.content {
-    text-align: center;
-    color: white;
+    text-align: center; /* centers all paragraph elements with the class "content" */
+    color: white; /* makes paragraph texts white */
 }
 
-#navigation {
-    text-align: center;
-    gap: 20px;
+#navigation { 
+    text-align: center; /* centers navigation */
 }
 
 #navigation a {
-    margin-right: 20px;
+    margin-right: 20px;  /* puts a gap in between navigation link */
 }
 
 #officiallink {
-    padding: 10px 20px;
+    padding: 10px 20px;  /* adds space inside the button */
     background-color: #ccbd7f;
     color: black;
     text-decoration: none;
-    border-radius: 5px;
-    border: 2px solid black;
+    border-radius: 5px; /* rounds the corners of the button slightly */
+    border: 2px solid black; /* adds a black border around the button */
 }
 
-#button-container {
+#button-container {  /* centers the container that holds the official website button */
     text-align: center;
   }

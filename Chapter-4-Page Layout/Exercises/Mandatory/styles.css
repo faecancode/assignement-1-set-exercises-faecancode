@@ -9,6 +9,8 @@ header{
 
 #nav{
     text-align: center;
+    color: #FFFFFF;
+    margin-right: 40px;
 }
 
 main {
@@ -39,10 +41,8 @@ aside{
     float:left;
 }
 
-.row ::after {
-    content:"" ;
-    display: table;
-    clear: both;
+.row {
+    float: right;
 }
 
 #copyright{
